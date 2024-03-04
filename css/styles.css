@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6, p {
 img {
 	display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -199,20 +200,19 @@ a {
 }
 
 .footer-info {
-  display: flex;
-  flex-direction: column;
   max-width: 264px;
   padding: 100px 0;
 }
 
 
 .logo-footer {
-  padding-bottom: 17.5px;
-  padding-top: 1.5px;
+  display: block;
+  padding-bottom: 16px;
+  padding-top: 0;
   font-family: var(--secondary-font);
   color: currentColor;
   font-size: 18px;
-  line-height: 1.166;
+  line-height: 1.333;
   font-weight: 800;
   letter-spacing: 0.03em;
 }
